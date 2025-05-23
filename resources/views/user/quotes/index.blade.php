@@ -7,7 +7,10 @@
         @foreach ($quotes as $quote)
             <div class="bg-white border border-gray-200 shadow-md rounded-xl p-5 mb-5">
                 <p class="text-lg text-gray-800 italic mb-2">“{{ $quote->content }}”</p>
-                <small class="text-[#0f2c59] font-medium">By {{ $quote->user->name }}</small>
+                <div class=" flex items-center justify-between">
+                    <small class="text-[#0f2c59] font-medium">By {{ $quote->user->name }}</small>
+                    <small class="text-gray-500">{{ $quote->created_at->format('d M Y') }}</small>
+                </div>
 
                 <div class="mt-4 flex items-center gap-3 text-md">
                     @if ($quote->isLikedBy(auth()->user()))

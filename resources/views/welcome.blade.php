@@ -7,6 +7,9 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet" />
     <!-- Kalau kamu pakai Tailwind CSS, pastikan sudah di-compile di app.css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+
+    <link rel="icon" type="image/png" href="{{ asset('storage/images/logo-quotesapp.png') }}">
+    
 </head>
 <body class="bg-gradient-to-r from-blue-600 to-indigo-700 min-h-screen flex items-center justify-center">
     <div class="text-center text-white px-6 py-12">
