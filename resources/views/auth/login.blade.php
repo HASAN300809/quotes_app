@@ -1,5 +1,5 @@
 <x-guest-layout>
-    <div class="max-w-md mx-auto mt-10 bg-white p-8 rounded-xl shadow-lg border border-gray-200">
+    <div class="max-w-md w-full mx-auto p-4 sm:px-6 lg:px-8">
         <!-- Header -->
         <div class="text-center mb-6">
             <h1 class="text-2xl font-bold text-[#0f2c59]">Welcome 👋</h1>
